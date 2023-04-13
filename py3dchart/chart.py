@@ -1,7 +1,7 @@
 from tkinter import *
 import numpy
 
-__version__ = '0.1.0'
+__version__ = '0.1.8'
 __author__ = 'WangLvyuan'
 
 class threeDChart:
@@ -15,8 +15,8 @@ class threeDChart:
         return rate
     
     # the pie apart
-    def pieGernerate(self, data1):
-        rate = threeDChart.pieData(data1)
+    def pieGernerate(self, pie_data_as_array):
+        rate = threeDChart.pieData(pie_data_as_array)
         root = Tk()
         coord = 20, 20, 220, 220
         shadow = 30, 30, 230, 230
@@ -37,6 +37,9 @@ class threeDChart:
     
         cv.pack()
         root.mainloop()
+
+def main():
+     print('test main')
 		
 if __name__ == '__main__':
-	print("hello")
+	main()
