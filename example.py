@@ -1,4 +1,3 @@
-# py3dchart
 from py3dchart import chart3d
 
 # isinstance
@@ -21,3 +20,4 @@ chart1.x2(300), chart1.y2(300)
 
 # draw pie chart
 chart1.drawPie(a, b)
+
