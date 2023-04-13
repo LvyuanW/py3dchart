@@ -1,4 +1,4 @@
-for install package: pip install py3dchart
+for installing package: pip install py3dchart
 
 import: from py3dchart import chart3d
 
